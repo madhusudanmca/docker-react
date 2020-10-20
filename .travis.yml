@@ -1,6 +1,6 @@
 sudo: required
 service: 
-    - docker-react
+    - docker
 
  before_install:
     - docker build -t madhusudanmca:/docker-react-travis Dockerfile.dev .
