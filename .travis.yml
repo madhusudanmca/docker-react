@@ -6,4 +6,4 @@ before_install:
     - docker build -t madhusudanmca/docker-react-travis -f Dockerfile.dev .
 
 script: 
-    - docker run -r CI=true madhusudanmca/docker-react-travis npm run test
+    - docker run -e CI=true madhusudanmca/docker-react-travis npm run test
