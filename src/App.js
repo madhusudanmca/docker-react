@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          I'm running now, but updated!
+          I'm running now, but in cloud!
         </p>
         <a
           className="App-link"
